@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Profile: React.FC = () => {
   return (
-    <div className="py-32 px-4 bg-stone-50 ">
+    <div className="py-32 px-4 text-stone-600 bg-stone-50">
       <h1 className="mb-20 text-2xl tracking-wider text-center">ABOUT ME</h1>
       <div className="md:flex md:px-32">
         <div className="mb-3 text-center md:w-1/2">

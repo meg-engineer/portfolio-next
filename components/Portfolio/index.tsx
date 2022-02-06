@@ -5,7 +5,7 @@ import Card from "components/Card";
 
 const Portfolio = () => {
   return (
-    <div className="py-32 bg-pink-50">
+    <div className="py-32 text-stone-600 bg-pink-50">
       <h1 className="mb-20 text-2xl tracking-wider text-center">PORTFOLIO</h1>
       <div className="gap-8 justify-center items-center md:flex md:px-32">
         {portfolioList.map((portfolio) => (
