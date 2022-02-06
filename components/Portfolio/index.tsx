@@ -7,9 +7,9 @@ const Portfolio = () => {
   return (
     <div className="py-32 bg-pink-50">
       <h1 className="mb-20 text-2xl tracking-wider text-center">PORTFOLIO</h1>
-      <div className="flex-wrap gap-8 justify-center items-center text-center sm:flex">
+      <div className="gap-8 justify-center items-center md:flex md:px-32">
         {portfolioList.map((portfolio) => (
-          <div key={portfolio.id}>
+          <div key={portfolio.id} className="mb-3 md:mb-0">
             <Card
               title={portfolio.title}
               description={portfolio.description}

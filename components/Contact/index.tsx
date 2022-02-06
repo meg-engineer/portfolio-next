@@ -3,7 +3,7 @@ import Image from "next/image";
 const Contact: React.FC = () => {
   return (
     <div
-      className="flex justify-center items-center py-32 h-96 bg-fixed bg-center bg-cover"
+      className="flex justify-center items-center py-32 px-2 h-96 bg-fixed bg-center bg-cover"
       style={{
         backgroundImage: "url(" + "/main.jpg" + ")",
       }}

@@ -14,7 +14,7 @@ const Card: React.FC<CardProps> = (props) => {
   const { title, description, detail, stack, image, url } = props;
   return (
     <a href={url} target="_blank" rel="noopener noreferrer">
-      <div className="w-72 h-96 text-center bg-white shadow-2xl transition duration-500 ease-in-out hover:scale-105 hover:-translate-y-1 hover:cursor-pointer card">
+      <div className="w-72 h-96 text-center bg-white shadow-2xl transition duration-500 ease-in-out hover:scale-105 hover:-translate-y-1 hover:cursor-pointer card mx-auto">
         <figure className="px-10 pt-10">
           <Image
             src={image}
