@@ -7,7 +7,6 @@ interface StickyNavigationProps {
 
 const StickyNavigation: React.FC<StickyNavigationProps> = (props) => {
   const { isDisplay } = props;
-  console.log("bool", isDisplay);
 
   return (
     <nav

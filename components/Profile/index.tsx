@@ -6,7 +6,7 @@ const Profile: React.FC = () => {
       <h1 className="mb-20 text-2xl tracking-wider text-center">ABOUT ME</h1>
       <div className="md:flex md:px-32">
         <div className="mb-3 text-center md:w-1/2">
-          <Image src="/me.png" width={240} height={240} alt="profileImage" />
+          <Image src="/me.jpg" width={240} height={240} alt="profileImage" />
         </div>
 
         <div className="flex flex-col justify-center md:w-1/2">

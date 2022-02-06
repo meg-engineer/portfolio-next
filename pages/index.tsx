@@ -3,6 +3,7 @@ import Image from "next/image";
 import { useState, useEffect, useRef, useCallback } from "react";
 
 // Components
+import Seo from "components/Seo";
 import StickyNavigation from "components/Navigation/sticky";
 import Hero from "components/Hero";
 import Navigation from "components/Navigation";
@@ -26,7 +27,6 @@ const Home: NextPage = () => {
     const nav = document.querySelector("#navigation");
     const navOffset =
       nav && window.pageYOffset + nav.getBoundingClientRect().top;
-    console.log("nav", navOffset, scrollTop);
 
     requestAnimationFrame(() => {
       if (navOffset && scrollTop > navOffset) {
@@ -46,25 +46,28 @@ const Home: NextPage = () => {
   }, []);
 
   return (
-    <div className="container">
-      <StickyNavigation isDisplay={isDisplay} />
-      <Hero />
-      <Navigation />
-      <main>
-        <section id="profile">
-          <Profile />
-        </section>
-        <section id="portfolio">
-          <Portfolio />
-        </section>
-        <section id="skill">
-          <Skill />
-        </section>
-        <section id="contact">
-          <Contact />
-        </section>
-      </main>
-    </div>
+    <>
+      <Seo />
+      <div>
+        <StickyNavigation isDisplay={isDisplay} />
+        <Hero />
+        <Navigation />
+        <main>
+          <section id="profile">
+            <Profile />
+          </section>
+          <section id="portfolio">
+            <Portfolio />
+          </section>
+          <section id="skill">
+            <Skill />
+          </section>
+          <section id="contact">
+            <Contact />
+          </section>
+        </main>
+      </div>
+    </>
   );
 };
 
