@@ -29,7 +29,7 @@ const Contact: React.FC = () => {
                 height={16}
                 alt="twitter"
               />
-              <span className="ml-2">Twitterはこちら</span>
+              <span className="ml-2 capitalize">Twitterはこちら</span>
             </a>
           </div>
         </div>
