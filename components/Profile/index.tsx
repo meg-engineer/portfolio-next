@@ -5,7 +5,7 @@ const Profile: React.FC = () => {
     <div className="py-32 px-4 text-stone-600 bg-stone-50">
       <h1 className="mb-20 text-2xl tracking-wider text-center">ABOUT ME</h1>
       <div className="md:flex md:px-32">
-        <div className="mb-3 text-center md:w-1/2">
+        <div className="mb-3 text-center md:text-right md:w-1/2 md:pr-4">
           <Image src="/me.jpg" width={240} height={240} alt="profileImage" />
         </div>
 
