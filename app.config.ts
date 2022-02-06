@@ -24,7 +24,13 @@ export const portfolioList: portfolioType[] = [
     description: "嬉しい出来事をカードにしてTwitterでシェア",
     detail:
       "嬉しい出来事をイラストカード（OGP画像）にして、Twitterでシェアできるアプリです。",
-    stack: ["JavaScript", "Vue.js", "Vuetify"],
+    stack: [
+      "JavaScript",
+      "Vue.js",
+      "Vuetify",
+      "Firebase/Cloud Firestore",
+      "Firebase/Cloud Function",
+    ],
     url: "https://yatta.tokyo/",
     image: "/yatta.png",
   },
@@ -34,7 +40,7 @@ export const portfolioList: portfolioType[] = [
     description: "",
     detail: "現在閲覧されているポートフォリオサイトです。",
     stack: ["TypeScript", "Next.js", "Tailwind CSS,daisyUI"],
-    url: "https://yatta.tokyo/",
+    url: "https://meg-portfolio.site/",
     image: "/yatta.png",
   },
 ];
